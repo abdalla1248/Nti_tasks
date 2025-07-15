@@ -3,7 +3,7 @@
 import 'dart:io';
 
 void main() {
-
+  // Validate name
   String name;
   while (true) {
     stdout.write("Enter your name: ");
@@ -13,7 +13,7 @@ void main() {
     print("Invalid input. Name cannot be empty.");
   }
 
-
+  // Validate account number
   String accountNumber;
   while (true) {
     stdout.write("Enter account number: ");
@@ -23,7 +23,7 @@ void main() {
     print("Invalid input. Account number cannot be empty.");
   }
 
-
+  // Validate account type
   String accountType;
   while (true) {
     stdout.write("Enter account type (savings/checking): ");
@@ -33,7 +33,7 @@ void main() {
     print("Invalid account type. Please enter 'savings' or 'checking'.");
   }
 
-
+  // Validate initial balance
   double balance;
   while (true) {
     stdout.write("Enter initial balance: ");
